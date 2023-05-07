@@ -5,13 +5,13 @@ import { FaTrashAlt, FaUserAlt } from 'react-icons/fa';
 function Contact({ name, number, onDeleteContact, contactId }) {
   return (
     <>
-      <div className={css.wrapper}>
+      <div className={css.wrap}>
         <span className={css.icon}>
           <FaUserAlt />
         </span>
         <p>{name}</p>
       </div>
-      <div className={css.wrapper}>
+      <div className={css.wrap}>
         <p className={css.number}>{number}</p>
         <button
           className={css.button}
